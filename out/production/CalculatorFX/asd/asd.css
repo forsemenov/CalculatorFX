@@ -1,0 +1,89 @@
+.root {
+      -fx-background-color:
+              linear-gradient(#ecf3fc 0%, #e4edf7 30%, #d9e4f1 70%);
+            -fx-background-insets: 0,1,2;
+            -fx-background-radius: 3,2,1;
+            -fx-padding: 3 30 3 30;
+            -fx-text-fill: black;
+            -fx-font-size: 12px;
+ }
+.menu-bar{
+  -fx-background-color: #3c7fb1,
+  linear-gradient( #ecf3fc 10%, #e4edf7 40%, #d6ddef 70%);
+  -fx-text-fill: black;
+  -fx-font-size: 9px;
+ }
+ #screen{-fx-background-color:
+               linear-gradient(#e5eefa, #fefeff)
+               linear-gradient(#e5eefa 0%, #f0f5fc 50%, #fefeff 80%);
+         -fx-background-radius: 1,1,1;
+         -fx-background-insets: 0,1,2;
+         -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+ }
+ #memoryScreen{
+  -fx-background-color:
+     linear-gradient(#e5eefa, #fefeff),
+     linear-gradient(#e5eefa 0%, #f0f5fc 50%, #fefeff 40%);
+  -fx-text-fill: black;
+ }
+#digitButtonStyle{
+    -fx-background-color:
+       linear-gradient(#ecf3fc 10%, #e4edf7 22%, #eff4fc 60%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-text-fill: black;
+    -fx-border-radius: 4;
+    -fx-border-color: #53656A;
+}
+#operationStyle{
+   -fx-background-color:
+      linear-gradient(#ecf3fc 20%, #e4edf7 20%, #d9e4f1 60%);
+   -fx-background-insets: 0,1,2;
+   -fx-background-radius: 3,2,1;
+   -fx-text-fill: black;
+   -fx-border-radius: 4;
+   -fx-border-color: #53656A;
+}
+#memoryButton{
+  -fx-background-color:
+    linear-gradient(#e4edf7 5%, #d9e4f1 95%);
+  -fx-background-insets: 0,1,2;
+  -fx-background-radius: 3,2,1;
+  -fx-text-fill: black;
+  -fx-font-size: 10px;
+  -fx-border-radius: 4;
+  -fx-border-color: #53656A;
+}
+#digitButtonStyle: hover{
+     -fx-background-color:
+                linear-gradient(#ffd65b, #e68400)
+                linear-gradient(#ffef84, #f2ba44)
+                linear-gradient(#ffea6a, #efaa22)
+                linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%)
+                linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+     -fx-background-insets: 0,1,2;
+     -fx-background-radius: 3,2,1;
+     -fx-text-fill: black;
+}
+#memoryButton: hover{
+    -fx-background-color:
+              linear-gradient(#ffd65b, #e68400)
+              linear-gradient(#ffef84, #f2ba44)
+              linear-gradient(#ffea6a, #efaa22)
+              linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%)
+              linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-text-fill: black;
+}
+#operationStyle: hover{
+             -fx-background-color:
+                  linear-gradient(#ffd65b, #e68400)
+                  linear-gradient(#ffef84, #f2ba44)
+                  linear-gradient(#ffea6a, #efaa22)
+                  linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%)
+                  linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+             -fx-background-insets: 0,1,2;
+             -fx-background-radius: 3,2,1;
+             -fx-text-fill: black;
+               }
